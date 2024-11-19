@@ -15,10 +15,10 @@ public class Main {
         UserService userService = context.getBean(UserService.class);
 
         // Add users and cars
-        userService.addUser(new User("User1", (byte) 67, "user1@mail.ru"));
-        userService.addUser(new User("User2", (byte) 17, "user2@mail.ru"));
+        //userService.addUser(new User("User1", (byte) 67, "user1@mail.ru"));
+        //userService.addUser(new User("User2", (byte) 17, "user2@mail.ru"));
 
-        userService.editUser(new User(2L, "User", (byte) 7, "user@mail.ru"));
+        //userService.editUser(new User(2L, "User", (byte) 7, "user@mail.ru"));
 
 
         // Check
