@@ -31,4 +31,10 @@ public class UserServiceImpl implements UserService {
     public User editUser(User user) {
         return userDao.editUser(user);
     }
+
+    @Transactional
+    @Override
+    public void deleteUser(Long id) {
+        userDao.deleteUser(id);
+    }
 }
